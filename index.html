@@ -6,9 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
+    <div id="container">
+        <h1>Welcome to the game "Rock Paper Scissors" !</h1>
+        <div class="div-button">
+            <button id="1" value="Rock">Rock</button>
+            <button id="2" value="Paper">Paper</button>
+            <button id="3" value="Scissors">Scissors</button>
+
+            <audio class="win" src="./sounds/win.mp3"></audio>
+            <audio class="fall" src="./sounds/wrong.mp3"></audio>
+        </div>
+
+        <div class="div-result"></div>
+        <p class="message"></p>
+    </div>
+
     <script src="./script.js"></script>
 </body>
 
